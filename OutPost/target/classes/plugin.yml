@@ -1,0 +1,15 @@
+name: OutPost
+version: '1.0'
+main: bgprotobg.net.outpost.OutPost
+api-version: '1.20'
+commands:
+  outpost:
+    description: Main command for outpost management
+    usage: /<command> <wand|confirm|cancel|list|delete>
+permissions:
+  outpost.use:
+    description: "Allows access to the /outpost command to open the outpost menu"
+    default: true
+  outpost.admin:
+    description: "Allows access to all outpost commands including create, delete, and list"
+    default: op

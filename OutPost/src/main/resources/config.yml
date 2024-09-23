@@ -1,0 +1,82 @@
+capture-duration-seconds: 30
+money-boost: 0.5
+boosts:
+  token: 1.0
+  gem: 1.5
+  exp: 2.0
+
+messages:
+  must_be_part_of_island: "&cYou must be part of an gang to capture the outpost."
+  already_captured_by_island: "&cYour gang has already captured this outpost."
+  another_player_capturing: "&cAnother player is already capturing this outpost."
+  start_capturing: "&eYou have started capturing the Outpost."
+  stop_capturing: "&cYou have left the outpost and stopped capturing."
+  lost_outpost: "&cYou have lost control of the outpost &6{0}&c."
+  broadcast_lost_outpost: "&6{0} has lost control of the outpost &6{1}&c."
+  broadcast_captured: "&aThe outpost has been captured by &6{0}&a."
+  broadcast_controlling: "&6{0} &ais controlling the outpost &6{1}&a."
+  broadcast_capturing: "&6{gang_name} &ais capping the &6{outpost_name}&a outpost!"
+  capture_action_bar: "&eCapturing in &6{seconds_left} &eseconds"
+  broadcast_interval_seconds: 300
+  capturing_broadcast_interval_seconds: 10
+
+
+
+gui:
+  title: "&2&LOutPost Menu"
+  rows: 3
+  filler-item: "GRAY_STAINED_GLASS_PANE"
+  outposts:
+    money:
+      material: "PAPER"
+      slot: 10
+      display-name: "&2&LMoney Outpost"
+      OutpostType: Money
+      lore:
+        - ""
+        - "&b&lISLAND CAPPER"
+        - "&b<island name money>"
+        - "&7Percentage: %outpost_money_percentage%"
+        - ""
+        - "&d&lBOOSTS:"
+        - "&2&lMONEY: 0.5"
+    token:
+      material: "DIAMOND"
+      slot: 12
+      display-name: "&2&LToken Outpost"
+      OutpostType: Token
+      lore:
+        - ""
+        - "&b&lISLAND CAPPER"
+        - "&b<island name token>"
+        - "&7Percentage: %outpost_token_percentage%"
+        - ""
+        - "&d&lBOOSTS:"
+        - "&e&LTOKENS: 0.5"
+    orb:
+      material: "EMERALD"
+      slot: 14
+      display-name: "&2&LGem Outpost"
+      OutpostType: Gem
+      lore:
+        - ""
+        - "&b&lISLAND CAPPER"
+        - "&b<island name gem>"
+        - "&7Percentage: %outpost_gem_percentage%"
+        - ""
+        - "&d&lBOOSTS:"
+        - "&e&LGEMS: 0.5"
+    crystal:
+      material: "NETHER_STAR"
+      slot: 16
+      display-name: "&2&LExp Outpost"
+      OutpostType: Exp
+      lore:
+        - ""
+        - "&b&lISLAND CAPPER"
+        - "&b<island name xp>"
+        - "&7Percentage: %outpost_xp_percentage%"
+        - ""
+        - "&d&lBOOSTS:"
+        - "&e&LExp: 0.5"
+

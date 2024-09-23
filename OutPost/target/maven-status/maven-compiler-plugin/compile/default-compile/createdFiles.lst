@@ -1,0 +1,11 @@
+bgprotobg\net\outpost\database\OutpostDAO.class
+bgprotobg\net\outpost\events\WandListener.class
+bgprotobg\net\outpost\models\Outpost.class
+bgprotobg\net\outpost\OutPost.class
+bgprotobg\net\outpost\placeholders\OutpostPlaceholder.class
+bgprotobg\net\outpost\events\PlayerMovementListener$3.class
+bgprotobg\net\outpost\database\DatabaseManager.class
+bgprotobg\net\outpost\events\PlayerMovementListener$2.class
+bgprotobg\net\outpost\commands\OutpostCommand.class
+bgprotobg\net\outpost\events\PlayerMovementListener.class
+bgprotobg\net\outpost\events\PlayerMovementListener$1.class
